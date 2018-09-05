@@ -1,0 +1,13 @@
+python;PyInt_ClearFreeList 3
+python;[libpython2.7.so.1.0] 12
+python;[unknown];PyDict_GetItem 2
+python;[unknown];PyDict_SetItem 2
+python;[unknown];PyDict_SetItem@plt 1
+python;[unknown];PyEval_EvalFrameEx 4
+python;[unknown];PyInt_FromLong@plt 1
+python;[unknown];[libpython2.7.so.1.0] 9
+python;[unknown];[unknown];PyDict_GetItem 1
+python;[unknown];[unknown];PyEval_EvalFrameEx 4
+python;[unknown];[unknown];[libpython2.7.so.1.0] 5
+python;__GI___munmap;system_call_fastpath;sys_munmap;vm_munmap;do_munmap;unmap_region;unmap_vmas;unmap_single_vma;unmap_page_range;tlb_flush_mmu.part.75;free_pages_and_swap_cache;release_pages;free_hot_cold_page_list;free_hot_cold_page 1
+python;__brk;system_call_fastpath;sys_brk;do_munmap;unmap_region;unmap_vmas;unmap_single_vma;unmap_page_range;tlb_flush_mmu.part.75;free_pages_and_swap_cache;release_pages;free_hot_cold_page_list;free_hot_cold_page;free_pages_prepare 1

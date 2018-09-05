@@ -1,0 +1,203 @@
+python 13001 115758.498566:   10101010 cpu-clock: 
+	           7402b [unknown] (/usr/lib64/libpython2.7.so.1.0)
+	         1ace170 [unknown] ([unknown])
+	    7f9024889b40 [unknown] ([unknown])
+
+python 13001 115758.610146:   10101010 cpu-clock: 
+	           71eb6 [unknown] (/usr/lib64/libpython2.7.so.1.0)
+	    7f9024899480 [unknown] ([unknown])
+
+python 13001 115758.620245:   10101010 cpu-clock: 
+	           8251c PyDict_GetItem (/usr/lib64/libpython2.7.so.1.0)
+	    7f90248a2ba0 [unknown] ([unknown])
+
+python 13001 115758.732417:   10101010 cpu-clock: 
+	           81c7f [unknown] (/usr/lib64/libpython2.7.so.1.0)
+
+python 13001 115758.742517:   10101010 cpu-clock: 
+	           82bf9 PyDict_SetItem (/usr/lib64/libpython2.7.so.1.0)
+	    7f9024899480 [unknown] ([unknown])
+
+python 13001 115758.854461:   10101010 cpu-clock: 
+	           7401f [unknown] (/usr/lib64/libpython2.7.so.1.0)
+	         1ace170 [unknown] ([unknown])
+	    7f9024889b40 [unknown] ([unknown])
+
+python 13001 115758.966087:   10101010 cpu-clock: 
+	           82467 PyDict_GetItem (/usr/lib64/libpython2.7.so.1.0)
+	               0 [unknown] ([unknown])
+	    7f9024899480 [unknown] ([unknown])
+
+python 13001 115758.976215:   10101010 cpu-clock: 
+	           e3bb7 PyEval_EvalFrameEx (/usr/lib64/libpython2.7.so.1.0)
+	               0 [unknown] ([unknown])
+
+python 13001 115759.087888:   10101010 cpu-clock: 
+	           71eb6 [unknown] (/usr/lib64/libpython2.7.so.1.0)
+	    7f9024899480 [unknown] ([unknown])
+
+python 13001 115759.098020:   10101010 cpu-clock: 
+	           e567c PyEval_EvalFrameEx (/usr/lib64/libpython2.7.so.1.0)
+	               0 [unknown] ([unknown])
+
+python 13001 115759.209871:   10101010 cpu-clock: 
+	           de914 PyEval_EvalFrameEx (/usr/lib64/libpython2.7.so.1.0)
+	               0 [unknown] ([unknown])
+
+python 13001 115759.321777:   10101010 cpu-clock: 
+	           e07af PyEval_EvalFrameEx (/usr/lib64/libpython2.7.so.1.0)
+	               0 [unknown] ([unknown])
+	    7f9024899480 [unknown] ([unknown])
+
+python 13001 115759.331877:   10101010 cpu-clock: 
+	           dfc6d PyEval_EvalFrameEx (/usr/lib64/libpython2.7.so.1.0)
+	         1ace170 [unknown] ([unknown])
+	    7f9024899480 [unknown] ([unknown])
+
+python 13001 115759.443529:   10101010 cpu-clock: 
+	           7401f [unknown] (/usr/lib64/libpython2.7.so.1.0)
+	         1ace170 [unknown] ([unknown])
+	    7f9024889b40 [unknown] ([unknown])
+
+python 13001 115759.453631:   10101010 cpu-clock: 
+	           82c31 PyDict_SetItem (/usr/lib64/libpython2.7.so.1.0)
+	    7f9024899480 [unknown] ([unknown])
+
+python 13001 115759.565360:   10101010 cpu-clock: 
+	           de920 PyEval_EvalFrameEx (/usr/lib64/libpython2.7.so.1.0)
+	    7f9024899480 [unknown] ([unknown])
+
+python 13001 115759.676864:   10101010 cpu-clock: 
+	           47d70 [unknown] (/usr/lib64/libpython2.7.so.1.0)
+	               0 [unknown] ([unknown])
+
+python 13001 115759.686961:   10101010 cpu-clock: 
+	           800bf [unknown] (/usr/lib64/libpython2.7.so.1.0)
+
+python 13001 115759.797641:   10101010 cpu-clock: 
+	           3ff50 PyInt_FromLong@plt (/usr/lib64/libpython2.7.so.1.0)
+	               0 [unknown] ([unknown])
+
+python 13001 115759.807744:   10101010 cpu-clock: 
+	           e39c7 PyEval_EvalFrameEx (/usr/lib64/libpython2.7.so.1.0)
+	         1ace170 [unknown] ([unknown])
+	    7f9024889b40 [unknown] ([unknown])
+
+python 13001 115759.919443:   10101010 cpu-clock: 
+	           801f6 [unknown] (/usr/lib64/libpython2.7.so.1.0)
+	    7f902489c900 [unknown] ([unknown])
+
+python 13001 115759.929545:   10101010 cpu-clock: 
+	           7402b [unknown] (/usr/lib64/libpython2.7.so.1.0)
+	         1ace170 [unknown] ([unknown])
+	    7f9024889b40 [unknown] ([unknown])
+
+python 13001 115760.040401:   10101010 cpu-clock: 
+	           80099 [unknown] (/usr/lib64/libpython2.7.so.1.0)
+
+python 13001 115760.150731:   10101010 cpu-clock: 
+	           801fe [unknown] (/usr/lib64/libpython2.7.so.1.0)
+	    7f902489c900 [unknown] ([unknown])
+
+python 13001 115760.160832:   10101010 cpu-clock: 
+	           40000 PyDict_SetItem@plt (/usr/lib64/libpython2.7.so.1.0)
+	    7f9024899480 [unknown] ([unknown])
+
+python 13001 115760.272395:   10101010 cpu-clock: 
+	           728c4 [unknown] (/usr/lib64/libpython2.7.so.1.0)
+
+python 13001 115760.282493:   10101010 cpu-clock: 
+	           7401f [unknown] (/usr/lib64/libpython2.7.so.1.0)
+	         1ace170 [unknown] ([unknown])
+	    7f9024889b40 [unknown] ([unknown])
+
+python 13001 115760.394760:   10101010 cpu-clock: 
+	           800d6 [unknown] (/usr/lib64/libpython2.7.so.1.0)
+
+python 13001 115760.404871:   10101010 cpu-clock: 
+	           e07aa PyEval_EvalFrameEx (/usr/lib64/libpython2.7.so.1.0)
+	               0 [unknown] ([unknown])
+	    7f9024899480 [unknown] ([unknown])
+
+python 13001 115760.515312:   10101010 cpu-clock: 
+	           81c11 [unknown] (/usr/lib64/libpython2.7.so.1.0)
+	    7f9024899480 [unknown] ([unknown])
+
+python 13001 115760.625975:   10101010 cpu-clock: 
+	           80044 [unknown] (/usr/lib64/libpython2.7.so.1.0)
+	    7f90248a2ba0 [unknown] ([unknown])
+
+python 13001 115760.636075:   10101010 cpu-clock: 
+	           801f0 [unknown] (/usr/lib64/libpython2.7.so.1.0)
+
+python 13001 115760.748092:   10101010 cpu-clock: 
+	           71eb6 [unknown] (/usr/lib64/libpython2.7.so.1.0)
+	    7f9024899480 [unknown] ([unknown])
+
+python 13001 115760.758247:   10101010 cpu-clock: 
+	           82504 PyDict_GetItem (/usr/lib64/libpython2.7.so.1.0)
+	    7f90248a2ba0 [unknown] ([unknown])
+
+python 13001 115760.868914:   10101010 cpu-clock: 
+	           71eb6 [unknown] (/usr/lib64/libpython2.7.so.1.0)
+	    7f9024899480 [unknown] ([unknown])
+
+python 13001 115760.879019:   10101010 cpu-clock: 
+	           7508e [unknown] (/usr/lib64/libpython2.7.so.1.0)
+
+python 13001 115760.889120:   10101010 cpu-clock: 
+	           7508e [unknown] (/usr/lib64/libpython2.7.so.1.0)
+
+python 13001 115760.899218:   10101010 cpu-clock: 
+	           7508e [unknown] (/usr/lib64/libpython2.7.so.1.0)
+
+python 13001 115760.909329:   10101010 cpu-clock: 
+	           750a7 [unknown] (/usr/lib64/libpython2.7.so.1.0)
+
+python 13001 115760.919447:   10101010 cpu-clock: 
+	           75070 [unknown] (/usr/lib64/libpython2.7.so.1.0)
+
+python 13001 115760.929547:   10101010 cpu-clock: 
+	           7509a [unknown] (/usr/lib64/libpython2.7.so.1.0)
+
+python 13001 115760.939651:   10101010 cpu-clock: 
+	    7fff87d9ec81 free_hot_cold_page ([kernel.kallsyms])
+	    7fff87d9ed26 free_hot_cold_page_list ([kernel.kallsyms])
+	    7fff87da4a2e release_pages ([kernel.kallsyms])
+	    7fff87ddc4fd free_pages_and_swap_cache ([kernel.kallsyms])
+	    7fff87dc24ec tlb_flush_mmu.part.75 ([kernel.kallsyms])
+	    7fff87dc5248 unmap_page_range ([kernel.kallsyms])
+	    7fff87dc55f1 unmap_single_vma ([kernel.kallsyms])
+	    7fff87dc6879 unmap_vmas ([kernel.kallsyms])
+	    7fff87dcc5ee unmap_region ([kernel.kallsyms])
+	    7fff87dcebf5 do_munmap ([kernel.kallsyms])
+	    7fff87dcee35 vm_munmap ([kernel.kallsyms])
+	    7fff87dd0052 sys_munmap ([kernel.kallsyms])
+	    7fff883217d5 system_call_fastpath ([kernel.kallsyms])
+	           f90f7 __GI___munmap (/usr/lib64/libc-2.17.so)
+
+python 13001 115760.949752:   10101010 cpu-clock: 
+	           73868 PyInt_ClearFreeList (/usr/lib64/libpython2.7.so.1.0)
+
+python 13001 115760.959897:   10101010 cpu-clock: 
+	           73868 PyInt_ClearFreeList (/usr/lib64/libpython2.7.so.1.0)
+
+python 13001 115760.970000:   10101010 cpu-clock: 
+	           73868 PyInt_ClearFreeList (/usr/lib64/libpython2.7.so.1.0)
+
+python 13001 115760.980123:   10101010 cpu-clock: 
+	    7fff87d9e097 free_pages_prepare ([kernel.kallsyms])
+	    7fff87d9ebf4 free_hot_cold_page ([kernel.kallsyms])
+	    7fff87d9ed26 free_hot_cold_page_list ([kernel.kallsyms])
+	    7fff87da4a2e release_pages ([kernel.kallsyms])
+	    7fff87ddc4fd free_pages_and_swap_cache ([kernel.kallsyms])
+	    7fff87dc24ec tlb_flush_mmu.part.75 ([kernel.kallsyms])
+	    7fff87dc5248 unmap_page_range ([kernel.kallsyms])
+	    7fff87dc55f1 unmap_single_vma ([kernel.kallsyms])
+	    7fff87dc6879 unmap_vmas ([kernel.kallsyms])
+	    7fff87dcc5ee unmap_region ([kernel.kallsyms])
+	    7fff87dcebf5 do_munmap ([kernel.kallsyms])
+	    7fff87dcf488 sys_brk ([kernel.kallsyms])
+	    7fff883217d5 system_call_fastpath ([kernel.kallsyms])
+	           f54bc __brk (/usr/lib64/libc-2.17.so)
+
