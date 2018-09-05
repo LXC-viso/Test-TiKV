@@ -45,20 +45,20 @@ INSERT - Takes(s): 20.2, Count: 100000, OPS: 4952.2, Avg(us): 19936, Min(us): 52
 * 测试过程中发现TiKV的CPU利用率在10%左右，内存利用率也很低，只有百分之几，可见go-ycsb对集群的测试并未达到集群的瓶颈。
 * 可以通过增加go-ycsb的测试线程来增加压力，还可以增加多态go-ycsb服务器进行测试，尽量是CPU、内存或者是网络达到极限，就可以找到测试情况下集群的瓶颈所在了。
 ### 对火焰图的分析
-![图片](https://github.com/LXC-viso/Test-TiKV/img/fire.png)
+![图片](https://github.com/LXC-viso/Test-TiKV/blob/master/img/fire.png)
 * 火焰图：就是对函数调用栈的CPU时间的图形化展示。下面的函数调用上面的函数，最上面的调用是程序的瓶颈所在，优化它们可以提高程序性能。
 * 从上图可以看到，时间花在了apply_worker、grpc-server-0、raftstore-4这三个调用上了：
   * apply_worker和raftstore-4两个调用中socksdb的write调用占了很多时间，这应该是等待IO耗时造成的。
   * grpc-server-0调用中比较耗时的是start-thread调用，其中调用了grpcio的异步io----poll，和io多路复用epoll；
 * 最上面耗时的操作一般是lock和io操作，如_raw_spin_unlock_irqrestore和protobuf::stream::CodedInputStream::read_tag_unpack等顶层调用。如果过多的锁等待io的话，就会使程序的性能下降
 ### 对timechart图分析
-![图片](https://github.com/LXC-viso/Test-TiKV/img/timechart1.png)
-![图片](https://github.com/LXC-viso/Test-TiKV/img/timechart2.png)
+![图片](https://github.com/LXC-viso/Test-TiKV/blob/master/img/timechart1.png)
+![图片](https://github.com/LXC-viso/Test-TiKV/blob/master/img/timechart2.png)
 * 可以发现，8个CPU核都没充分使用，大多时候都是idle状态。raftstore和jbd2/vdb大多数时间处于等待io状态，CPU抖动和io抖动都比较严重。
 ### 函数调用图的分析
-![图片](https://github.com/LXC-viso/Test-TiKV/img/func_call1.png)
+![图片](https://github.com/LXC-viso/Test-TiKV/blob/master/img/func_call1.png)
 
-![图片](https://github.com/LXC-viso/Test-TiKV/img/func_call2.png)
+![图片](https://github.com/LXC-viso/Test-TiKV/blob/master/img/func_call2.png)
 * 这是对这段时间内调用时间的占用分析图，图很大，只贴了一部分，对应火焰图可以发现哪些函数耗时较多。
 ### 总结
 * 通过阿里云服务器对TiKV集群进行了raw insert的测试，发现单台go-ycsb并不能测出TiKV的瓶颈，需要增加线程和测试服务器。同时发现TiKV作为存储层的一些性能瓶颈，主要集中在锁的等待和io上了，CPU并不是其瓶颈。TiKV是负责TiDB存储层的服务，需要保证能提供高性能、高并发、高吞吐的服务，应尽可能地优化。
